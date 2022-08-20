@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-19T12:54:08 CDT" name="Default suite" finished-at="2022-08-19T12:54:27 CDT" duration-ms="18674">
+    <groups>
+    </groups>
+    <test started-at="2022-08-19T12:54:08 CDT" name="Default test" finished-at="2022-08-19T12:54:27 CDT" duration-ms="18674">
+      <class name="testNGProject.DataProviderClass">
+        <test-method signature="checking(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testNGProject.DataProviderClass@2abf4075]" started-at="2022-08-19T12:54:08 CDT" name="checking" data-provider="dp" finished-at="2022-08-19T12:54:15 CDT" duration-ms="6605" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin132]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Wrong Credentials]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checking -->
+        <test-method signature="checking(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testNGProject.DataProviderClass@2abf4075]" started-at="2022-08-19T12:54:15 CDT" name="checking" data-provider="dp" finished-at="2022-08-19T12:54:20 CDT" duration-ms="4643" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admnhhj]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Wrong Credentials]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checking -->
+        <test-method signature="checking(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testNGProject.DataProviderClass@2abf4075]" started-at="2022-08-19T12:54:20 CDT" name="checking" data-provider="dp" finished-at="2022-08-19T12:54:27 CDT" duration-ms="7326" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@yourstore.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test Passed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checking -->
+      </class> <!-- testNGProject.DataProviderClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
