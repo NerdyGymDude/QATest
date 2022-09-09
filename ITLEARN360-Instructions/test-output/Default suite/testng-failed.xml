@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNGProject.SkipClass">
+      <class name="testNGProject.MultiTestAssignement">
         <methods>
-          <include name="test2"/>
-          <include name="test3"/>
+          <include name="clickonHome"/>
         </methods>
-      </class> <!-- testNGProject.SkipClass -->
+      </class> <!-- testNGProject.MultiTestAssignement -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
